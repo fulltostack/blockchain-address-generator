@@ -1,0 +1,22 @@
+{
+  "name": "blockchain-address-generation",
+  "version": "1.0.0",
+  "description": "address generation from mnemonic",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha './test/**/*.spec.js'",
+    "start": "node index.js"
+  },
+  "author": "fulltostack",
+  "license": "ISC",
+  "dependencies": {
+    "bip32": "^1.0.2",
+    "bip32-path": "^0.4.2",
+    "bip39": "^2.5.0",
+    "bitcoinjs-lib": "^4.0.2",
+    "chai": "^4.2.0",
+    "convict": "^4.4.0",
+    "ethereumjs-util": "^6.0.0",
+    "mocha": "^5.2.0"
+  }
+}
